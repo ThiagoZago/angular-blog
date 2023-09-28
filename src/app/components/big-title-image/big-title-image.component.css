@@ -1,12 +1,14 @@
 .container__title-image > h1{
+    max-width: 70%;
     display: flex;
-    justify-content: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-top: 35px;
-    margin-bottom: 35px;
+    text-align: center;
+    font-size: 55px;
+    font-weight: bolder;
+    margin: 35px auto;
 }
 
 .container__title-image > img {
     display: flex;
-    margin: auto;
+    max-width: 100%;
+    margin: 10px auto;
 }
