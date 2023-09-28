@@ -12,6 +12,7 @@ import { ReadCaseRIGHTCardComponent } from './components/read-case-right-card/re
 import { ReadCaseLEFTCardComponent } from './components/read-case-left-card/read-case-left-card.component';
 import { NewsCardComponent } from './components/news-card/news-card.component';
 import { ContactsBarComponent } from './components/contacts-bar/contacts-bar.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ContactsBarComponent } from './components/contacts-bar/contacts-bar.com
     ReadCaseRIGHTCardComponent,
     ReadCaseLEFTCardComponent,
     NewsCardComponent,
-    ContactsBarComponent
+    ContactsBarComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
