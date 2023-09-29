@@ -1,26 +1,32 @@
-.articles {
-    margin: 15px;
-    padding: 15px;
+.container {
+    margin: 15px 0;
+    padding: 15px 0;
     display: flex;
 }
 
-.articles__name {
-    margin: 0;
+.container__name {
+    display: contents;
 }
 
-.articles__name > h1 {
-    margin: 0 10px 0 auto;
-    max-width: 70%;
+.container__name > h1 {
+    margin: 0 15px 0 0;
     font-size: 23px;
 }
 
-.articles__desc > p {
+.container__name > h1 > a {
+    text-decoration: none;
+}
+
+.container__desc {
+    margin-left: 55px;
+}
+
+.container__desc > p {
     max-width: 70%;
     font-size: 10px;
 }
 
-button {
-    margin-top: 10px;
+.container__desc > button {
     font-size: 13px;
     font-weight: bolder;
     border: none;

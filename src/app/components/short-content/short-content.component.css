@@ -1,17 +1,19 @@
 .article {
-    margin: 15px;
-    padding: 15px;
+    margin: 15px 0;
+    padding: 15px 0;
     display: flex;
 }
 
 .article__left > h1 {
-    margin: 0 10px 0 auto;
     max-width: 70%;
     font-size: 23px;
 }
 
+.article__left > h1 > a {
+    text-decoration: none;
+}
+
 .article__left > p {
-    margin: 0 10px 0 auto;
     max-width: 70%;
     font-size: 10px;
 }
@@ -21,10 +23,13 @@
 }
 
 .subtitle__right > h3 {
-    padding: 5px 0 0 0;
-    max-width: 70%;
     font-size: 18px;
 }
+
+.subtitle__right > h3 > a {
+    text-decoration: none;
+}
+
 .description__right > p {
     max-width: 70%;
     font-size: 10px;
