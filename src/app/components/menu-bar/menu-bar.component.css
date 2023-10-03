@@ -1,0 +1,24 @@
+.container__menu {
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__links {
+    display: flex;
+}
+
+.menu__links > ul {
+    align-items: end;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+}
+
+.menu__links > ul > li {
+    list-style: none;
+}
+
+.menu__links > ul > li > a {
+    text-decoration: none;
+}

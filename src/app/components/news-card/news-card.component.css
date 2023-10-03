@@ -1,0 +1,20 @@
+.container__news {
+    margin: 15px auto;
+    max-width: 100%;
+}
+
+.news__img > a > img {
+    max-width: 100%;
+}
+
+.news__info > p {
+    font-size: 10px;
+}
+
+.news__info > a {
+    text-decoration: none;
+}
+
+.news__info > a > h1 {
+    font-size: 15px;
+}
