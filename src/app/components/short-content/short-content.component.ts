@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-short-content',
@@ -6,6 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./short-content.component.css']
 })
 export class ShortContentComponent implements OnInit {
+
+  @Input()
+  cardTitle:string=""
+  @Input()
+  cardDescription:string=""
+  @Input()
+  cardSubtitle:string=""
+  @Input()
+  cardSubDescription:string=""
 
   constructor() { }
 
