@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  isAliveReadCaseLeft:boolean=false;
+  isAliveReadCaseRight:boolean=false;
+  isAliveReadMore:boolean=false;
+
   constructor() { }
 
   ngOnInit(): void {

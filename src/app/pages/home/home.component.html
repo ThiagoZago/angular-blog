@@ -29,7 +29,7 @@
         </app-short-content>
     </div>
 
-    <div class="read-case-left-card">
+    <div class="read-case-left-card" *ngIf=isAliveReadCaseLeft>
         <app-read-case-left-card
             cardTitle=""
             cardImage=""
@@ -38,7 +38,7 @@
         </app-read-case-left-card>
     </div>
 
-    <div class="read-case-right-card">
+    <div class="read-case-right-card" *ngIf=isAliveReadCaseRight>
         <app-read-case-right-card
             cardTitle=""
             cardImage=""
@@ -47,7 +47,7 @@
         </app-read-case-right-card>
     </div>
 
-    <div class="read-more-card">
+    <div class="read-more-card" *ngIf="isAliveReadMore">
         <app-read-more-card
             cardTitle=""
             cardDescription=""
