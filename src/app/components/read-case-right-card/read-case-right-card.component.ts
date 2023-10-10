@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-read-case-right-card',
@@ -6,6 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./read-case-right-card.component.css']
 })
 export class ReadCaseRIGHTCardComponent implements OnInit {
+
+  @Input()
+  cardImage:string=""
+  @Input()
+  cardTitle:string=""
+  @Input()
+  cardDescription:string=""
 
   constructor() { }
 
