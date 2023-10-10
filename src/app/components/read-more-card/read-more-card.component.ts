@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-read-more-card',
@@ -6,6 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./read-more-card.component.css']
 })
 export class ReadMoreCardComponent implements OnInit {
+
+  @Input()
+  cardTitle:string="";
+  @Input()
+  cardDescription:string="";
 
   constructor() { }
 
