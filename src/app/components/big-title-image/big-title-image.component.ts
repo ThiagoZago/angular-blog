@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-big-title-image',
@@ -6,6 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./big-title-image.component.css']
 })
 export class BigTitleImageComponent implements OnInit {
+
+  @Input()
+  titleBigContent:string="";
+  @Input()
+  imageBigContent:string="";
 
   constructor() { }
 

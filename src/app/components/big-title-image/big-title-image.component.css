@@ -10,7 +10,7 @@
     text-decoration: none;
 }
 
-.container__title-image > img {
+.container__title-image > img { 
     margin: auto;
     max-width: 100%;
 }
