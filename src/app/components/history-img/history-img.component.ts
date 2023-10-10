@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-history-img',
@@ -6,6 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./history-img.component.css']
 })
 export class HistoryImgComponent implements OnInit {
+
+  @Input()
+  cardImageOne:string=""
+  @Input()
+  cardImageTwo:string=""
 
   constructor() { }
 
