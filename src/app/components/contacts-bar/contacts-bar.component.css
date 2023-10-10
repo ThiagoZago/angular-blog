@@ -1,0 +1,20 @@
+hr {
+    border: solid #EFF5FC 1.5px;
+}
+
+.contact__thanks {
+    display: flex;
+    justify-content: center;
+    margin: 70px 0 20px 0;
+}
+
+.contact__links {
+    max-width: 25%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact__links > a {
+    text-decoration: none;
+}
