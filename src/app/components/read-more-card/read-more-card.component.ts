@@ -10,7 +10,7 @@ export class ReadMoreCardComponent implements OnInit {
   @Input()
   cardTitle:string="";
   @Input()
-  cardDescription:string="";
+  cardDescriptionRead:string="a";
 
   constructor() { }
 

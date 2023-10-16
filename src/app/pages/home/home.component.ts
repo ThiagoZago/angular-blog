@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { ReadCaseLEFTCardComponent } from '../../components/read-case-left-card/read-case-left-card.component';
+import { ReadCaseRIGHTCardComponent } from '../../components/read-case-right-card/read-case-right-card.component';
+import { ReadMoreCardComponent } from '../../components/read-more-card/read-more-card.component';
 
 @Component({
   selector: 'app-home',

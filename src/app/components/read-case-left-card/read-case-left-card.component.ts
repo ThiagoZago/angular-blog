@@ -12,7 +12,7 @@ export class ReadCaseLEFTCardComponent implements OnInit {
   @Input()
   cardTitle:string=""
   @Input()
-  cardDescription:string=""
+  cardDescriptionLeft:string="a"
 
   constructor() { }
 
