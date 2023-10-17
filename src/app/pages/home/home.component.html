@@ -1,8 +1,4 @@
 <div class="home-page">
-    <div class="menu-bar">
-        <app-menu-bar></app-menu-bar>
-    </div>
-
     <div class="big-title-image">
         <app-big-title-image 
             titleBigContent=""
@@ -29,8 +25,8 @@
         </app-short-content>
     </div>
 
-    <div class="read-case-left-card" *ngIf="isAliveReadCaseLeft">
-        <app-read-case-left-card
+    <div class="read-case-left-card">
+        <app-read-case-left-card 
             cardTitle=""
             cardImage=""
             cardDescriptionLeft=""
@@ -38,7 +34,7 @@
         </app-read-case-left-card>
     </div>
 
-    <div class="read-case-right-card" *ngIf="isAliveReadCaseRight">
+    <div class="read-case-right-card">
         <app-read-case-right-card
             cardTitle=""
             cardImage=""
@@ -47,7 +43,7 @@
         </app-read-case-right-card>
     </div>
 
-    <div class="read-more-card" *ngIf="isAliveReadMore">
+    <div class="read-more-card">
         <app-read-more-card
             cardTitle=""
             cardDescriptionRead=""
