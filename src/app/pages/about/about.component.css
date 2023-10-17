@@ -1,0 +1,26 @@
+hr {
+    margin: 0px 150px;
+    border: solid #EFF5FC 1.5px;
+}
+
+.container__about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about__myself > img {
+    margin-top: 60px;
+    border-radius: 50%;
+    border: solid #EFF5FC 5px;
+}
+
+.about__description {
+    margin-top: 5px;
+}
+
+.about__description > p {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
