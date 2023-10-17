@@ -14,6 +14,8 @@ import { NewsCardComponent } from './components/news-card/news-card.component';
 import { ContactsBarComponent } from './components/contacts-bar/contacts-bar.component';
 import { HomeComponent } from './pages/home/home.component';
 import { AboutComponent } from './pages/about/about.component';
+import { WorksComponent } from './pages/works/works.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { AboutComponent } from './pages/about/about.component';
     NewsCardComponent,
     ContactsBarComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent,
+    WorksComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
